@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#topBoard {
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board {
+    width: 700px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3934db;
+    align-items: center;
+    justify-content: space-around;
+    align-content: flex-start; 
+
+}
+
+.winningScreen1, .winningScreen2 {
+    /* Box */
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+
+    /* Text */
+    color: black;
+    font-family: unset, cursive;
+    font-size: 75;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    font-weight: bold;
+}
+
+.newGame {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.winningScreen1{
+    background-color: rgb(226, 0, 0);
+}
+
+.winningScreen2{
+    background-color: yellow;
+}
+
+.tile, .player1, .player2, .upperTile {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 4px;
+    margin: 10px 0 0 10px;
+    margin-right: 10;
+}
+
+.player1 {
+    background-color: rgb(226, 0, 0);
+}
+
+.player2 {
+    background-color: yellow;
+}
+
+.tile {
+    background-color: rgb(187, 222, 236);
+}
+
+.upperTile {
+    background-color: white;
+}
