@@ -1,4 +1,4 @@
-# connect4
+# Connect4
 Connect 4 Game
 Welcome to the Connect 4 game! This project is a simple implementation of the classic Connect 4 game using HTML, CSS, and JavaScript.
 
