@@ -1,6 +1,5 @@
 # Connect4
 Connect 4 Game
-Welcome to the Connect 4 game! This project is a simple implementation of the classic Connect 4 game using HTML, CSS, and JavaScript.
 
 Game Rules
 Connect 4 is a two-player connection game in which the players first choose a color and then take turns dropping one colored disc from the top into a vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The object of the game is to connect four of one's own discs of the same color consecutively vertically, horizontally, or diagonally before your opponent.
