@@ -9,5 +9,6 @@ Project Structure
 index.html: The main HTML file containing the structure of the game, including the game board, winning screens, and buttons.
 style.css: The CSS file responsible for styling the game elements, including the game board, tiles, winning screens, and buttons.
 index.js: The JavaScript file containing the game logic, including initializing the game board, handling player input, checking for a win condition, and managing the new game button functionality.
+
 Game Logic
 The game logic is implemented in JavaScript. It initializes the game board, processes player input using keyboard arrows and the spacebar, updates the game board when a tile is placed, and checks for a win condition after each move. The game includes a new game button that resets the game state when clicked.
